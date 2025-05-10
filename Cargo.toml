@@ -1,0 +1,19 @@
+[package]
+name = "schemr"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kayne Amornvivat <33359595+kaynenotkanye@users.noreply.github.com>"]
+description = "A Rust CLI for MySQL schema dumping and diffing"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/kaynenotkanye/schemr"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+toml = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+mysql = "24.0"
+dirs = "5.0"
+anyhow = "1.0"
+dialoguer = "0.10"
